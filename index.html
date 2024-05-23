@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrackInc</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="custom_scrollbar">
+    <div class="wrapper">
+        <div class="sidebar">
+            <img class="close" src="./assets/close.svg" alt="close">
+            <div class="top-part">
+                <div class="logo_container">
+                    <img src="./assets/Logo@3x.svg" alt="logo">
+                </div>
+                <div class="nav_container">
+                    <div class="nav_item active">
+                        <div class="icon">
+                            <img src="./assets/filledDashboard.svg" data-outlined="./assets/dashboard.svg" data-filled="./assets/filledDashboard.svg" alt="dashboard">
+                        </div>
+                        <span>Dashboard</span>
+                    </div>
+                    <div class="nav_item">
+                        <div class="icon">
+                            <img src="./assets/invoices.svg" data-outlined="./assets/invoices.svg" data-filled="./assets/filledInvoices.svg" alt="invoices">
+                        </div>
+                        <span>Invoices</span>
+                    </div>
+                    <div class="nav_item">
+                        <div class="icon">
+                            <img src="./assets/proposals.svg" data-outlined="./assets/proposals.svg" data-filled="./assets/filledProposals.svg" alt="proposals">
+                        </div>
+                        <span>Proposals</span>
+                    </div>
+                    <div class="nav_item">
+                        <div class="icon">
+                            <img src="./assets/services.svg" data-outlined="./assets/services.svg" data-filled="./assets/filledServices.svg" alt="services">
+                        </div>
+                        <span>Services</span>
+                    </div>
+                    <div class="nav_item">
+                        <div class="icon">
+                            <img src="./assets/transactions.svg" data-outlined="./assets/transactions.svg" data-filled="./assets/filledTransactions.svg" alt="transactions">
+                        </div>
+                        <span>Transactions</span>
+                    </div>
+                    <div class="nav_item">
+                        <div class="icon">
+                            <img src="./assets/projects.svg" data-outlined="./assets/projects.svg" data-filled="./assets/filledProjects.svg" alt="projects">
+                        </div>
+                        <span>Projects</span>
+                    </div>
+                    <div class="nav_item">
+                        <div class="icon">
+                            <img src="./assets/customers.svg" data-outlined="./assets/customers.svg" data-filled="./assets/filledCustomers.svg" alt="customers">
+                        </div>
+                        <span>Customers</span>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom_buttons">
+                <div class="nav_item">
+                    <div class="icon">
+                        <img src="./assets/settings.svg" data-outlined="./assets/settings.svg" data-filled="./assets/filledSettings.svg" alt="settings">
+                    </div>
+                    <span>Settings</span>
+                </div>
+                <div class="nav_item">
+                    <div class="icon">
+                        <img src="./assets/logout.svg" data-outlined="./assets/logout.svg" data-filled="./assets/filledLogout.svg" alt="logout">
+                    </div>
+                    <span>Log out</span>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="top_section">
+                <div class="profile_bar">
+                    <div>
+                        <img class="menu" src="./assets/menu.svg" alt="menu">
+                        <h1>Hi, Welcome back <span> Robert!</span></h1>
+                    </div>
+                    <div class="profile_content">
+                        <div class="input_container">
+                            <img src="./assets/magnifyGlass.svg" alt="magnifyGlass">
+                            <input type="text" placeholder="Search...">
+                        </div>
+                        <div class="bell_icon">
+                            <img src="./assets/bell.svg" alt="bell">
+                        </div>
+                        <div class="avatar">
+                            <img src="./assets/avatar4.jpeg" alt="avatar">
+                        </div>
+                    </div>
+                </div>
+                <h1>Finance Overview</h1>
+                <div class="stats_container">
+                    <div class="stat">
+                        <h1>$ 2,77,120</h1>
+                        <h4>Sales</h4>
+                        <img src="./assets/sales.svg" alt="stat1Icon">
+                    </div>
+                    <div class="stat">
+                        <h1>$ 60,100</h1>
+                        <h4>Expense</h4>
+                        <img src="./assets/expense.svg" alt="stat1Icon">
+                    </div>
+                    <div class="stat">
+                        <h1>$ 57,230</h1>
+                        <h4>Profit</h4>
+                        <img src="./assets/profit.svg" alt="stat1Icon">
+                    </div>
+                    <div class="stat">
+                        <h1>$ 1,60,124</h1>
+                        <h4>Income</h4>
+                        <img src="./assets/income.svg" alt="stat1Icon">
+                    </div>
+                </div>
+            </div>
+            <div class="bottom_section">
+                <div class="table_wrapper custom_scrollbar_horizontal">
+                    <div class="table_container">
+                        <div class="table_heading">
+                            <p>Current Projects</p>
+                            <button>Create</button>
+                        </div>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Project Name</th>
+                                    <th>Customer</th>
+                                    <th>Sent Date</th>
+                                    <th>Amount</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Travel app design</td>
+                                    <td>Jacob Jones</td>
+                                    <td>28 Oct 2022</td>
+                                    <td>$ 240.90</td>
+                                    <td>
+                                        <div class="sent">SENT</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>UX Research for Event <br> management app</td>
+                                    <td>Wade Warren</td>
+                                    <td>18 Oct 2022</td>
+                                    <td>$ 120.00</td>
+                                    <td>
+                                        <div class="draft">DRAFT</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Redesign - Food delivery app</td>
+                                    <td>Annette Black</td>
+                                    <td>15 Oct 2022</td>
+                                    <td>$ 351.00</td>
+                                    <td>
+                                        <div class="paid">PAID</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Web App - Online Learning</td>
+                                    <td>Cameron Williamson</td>
+                                    <td>15 Oct 2022</td>
+                                    <td>$ 240.90</td>
+                                    <td>
+                                        <div class="paid">PAID</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Railway web casestudy</td>
+                                    <td>Robert Fox</td>
+                                    <td>13 Oct 2022</td>
+                                    <td>$ 153.00</td>
+                                    <td>
+                                        <div class="sent">SENT</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Responsive web design</td>
+                                    <td>Floyd Miles</td>
+                                    <td>06 Oct 2022</td>
+                                    <td>$ 140.00</td>
+                                    <td>
+                                        <div class="rejected">REJECTED</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Music app design</td>
+                                    <td>Theresa Webb</td>
+                                    <td>04 Oct 2022</td>
+                                    <td>$ 345.90</td>
+                                    <td>
+                                        <div class="draft">DRAFT</div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="events_section">
+                    <div class="event_container custom_scrollbar">
+                        <p>Events</p>
+                        <div class="events">
+                            <div class="event">
+                                <div class="event_details">
+                                    <div class="avatar">
+                                        <img src="./assets/avatar1.jpeg" alt="avatar">
+                                    </div>
+                                    <div class="details">
+                                        <h4>Wade Warren</h4>
+                                        <p>🎂 <span>Birthday</span> • Today</p>
+                                    </div>
+                                </div>
+                                <button>Wish</button>
+                            </div>
+                            <div class="event">
+                                <div class="event_details">
+                                    <div class="avatar">
+                                        <img src="./assets/avatar2.png" alt="avatar">
+                                    </div>
+                                    <div class="details">
+                                        <h4>Wade Warren</h4>
+                                        <p>🎉 <span>Joining Us</span> • Today</p>
+                                    </div>
+                                </div>
+                                <button>Congratulations</button>
+                            </div>
+                            <div class="event">
+                                <div class="event_details">
+                                    <div class="avatar">
+                                        <img src="./assets/avatar3.png" alt="avatar">
+                                    </div>
+                                    <div class="details">
+                                        <h4>Wade Warren</h4>
+                                        <p>💼 Work Anniversary • 7 September 2022</p>
+                                    </div>
+                                </div>
+                                <!-- <button>Wish</button> -->
+                            </div>
+                            <div class="event">
+                                <div class="event_details">
+                                    <div class="avatar">
+                                        <img src="./assets/avatar4.jpeg" alt="avatar">
+                                    </div>
+                                    <div class="details">
+                                        <h4>Wade Warren</h4>
+                                        <p>💼 Work Anniversary • 12 October 2022</p>
+                                    </div>
+                                </div>
+                                <!-- <button>Wish</button> -->
+                            </div>
+                            <div class="event">
+                                <div class="event_details">
+                                    <div class="avatar">
+                                        <img src="./assets/avatar2.png" alt="avatar">
+                                    </div>
+                                    <div class="details">
+                                        <h4>Wade Warren</h4>
+                                        <p>🎂 <span>Birthday</span> • 12 December 2022</p>
+                                    </div>
+                                </div>
+                                <button>Wish</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
